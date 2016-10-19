@@ -1,0 +1,226 @@
+body{
+	background-image: url("");    /* Legg til senere om det trengs */
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #CF5C3F;
+}
+
+a:hover, a:active {
+	background-color: #CF5C3F;
+	color: #FFF;
+}
+
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+	
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.mainHeader nav {
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;       /* for firefox/webkit */
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+	
+}
+
+.mainHeader nav ul li {
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color:#FFF;
+	display: inline-block;
+	padding: 10px 25px;   /* husk height */
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav  a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #CF5C3F;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {         /*runder av hjørnene på knappene */
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;   /* Fjernet overflow: hidden; */
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2px;
+}
+
+.bottomcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2px;
+}
+
+
+
+.top-sidebar {
+	width: 21%;      /* 25? */
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;				/* kan endres til 'margin: top right bot left' */
+	margin-top: 2%;
+	padding: 2% 3%;
+}
+
+.post-info{								/*Teksten over hovedinnhold under tittel */
+	font-style: italic;
+	color: #999;
+	font-size: 90%;
+}
+
+.middle-sidebar {					/* husk cut width når +padding */
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+	
+}.bottom-sidebar {
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left: 3%;
+	margin-bottom: 2%;
+	padding: 2% 3%;
+}
+
+.mainFooter {
+	width: 100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #666;
+	margin-top: 2%;					/* Kan også være 'margin 2% 0;' - top/bot left/right */
+	margin-bottom: 2%;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 1% auto;
+	color: #FFF;
+	
+}
+
+/* Selve knappen */
+.dropknapp {
+    background-color: #CF5C3F;
+    color: white;
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+/* <div> - plassering av dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	overflow:auto;
+}
+
+/* Links i dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	display: block;
+}
+
+/* Endrer fargen på dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Viser dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
